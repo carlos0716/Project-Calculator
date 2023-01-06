@@ -12,10 +12,21 @@ const divide = (a, b) => {
         return console.log('Error');
     }
     else {
-        a / b
+       return a / b;
     }
 };
-
+ 
+const operate = (a, b, c) => {
+    if (b === '+') {
+       return add(a,c);
+    } else if (b === '-') {
+        return substract(a,c);
+    } else if(b ==='*') {
+        return multiply(a,c);
+    } else if (b === '/') {
+        return divide(a,c);
+    }
+ }
 
 
 
