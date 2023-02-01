@@ -28,6 +28,10 @@ const operate = (a, b, c) => {
     }
  }
 
+ function dis(val) {
+    document.getElementById('result').value += val;
+}
 
-
-
+function allClear() {
+    document.getElementById('result').value = '';
+}
