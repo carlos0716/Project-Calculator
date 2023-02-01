@@ -10,30 +10,30 @@
 </head>
 <body>
     <div class="calc-body">
-        <!-- <input type="text" class="display" id="display"  value="0"> -->
-        <p id="display" class="display"></p>
+        <input type="text" class="display" id="result" value="0" >
+        <!-- <p id="display" class="display"></p> -->
         <div class="calc-keys"> 
-            <input type="button" class="btn operator" value="+">+</input>
-            <input type="button" class="btn operator" value="-">-</input>
-            <input type="button" class="btn operator" value="*">&times;</input>
-            <input type="button" class="btn operator" value="/">&divide;</input>
+            <button type="button"  class="btn operator" value="+">+</button>
+            <button type="button"  class="btn operator" value="-">-</button>
+            <button type="button"  class="btn operator" value="*">&times;</button>
+            <button type="button"  class="btn operator" value="/">&divide;</button>
             
-            <input type="button" class="btn" value="7" onclick="dis('7')">7</input>
-            <input type="button" class="btn" value="8" onclick="dis('8')">8</input>
-            <input type="button" class="btn" value="9" onclick="dis('9')">9</input>
+            <button type="button"  class="btn" value="7" onclick="dis('7')">7</button>
+            <button type="button"  class="btn" value="8" onclick="dis('8')">8</button>
+            <button type="button"  class="btn" value="9" onclick="dis('9')">9</button>
             
-            <input type="button" class="btn" value="4">4</input>
-            <input type="button" class="btn" value="5">5</input>
-            <input type="button" class="btn" value="6">6</input>
+            <button type="button"  class="btn" value="4" onclick="dis('4')">4</button>
+            <button type="button"  class="btn" value="5" onclick="dis('5')">5</button>
+            <button type="button"  class="btn" value="6" onclick="dis('6')">6</button>
             
-            <input type="button" class="btn" value="1">1</input>
-            <input type="button" class="btn" value="2">2</input>
-            <input type="button" class="btn" value="3">3</input>
+            <button type="button"  class="btn" value="1" onclick="dis('1')">1</button>
+            <button type="button"  class="btn" value="2" onclick="dis('2')">2</button>
+            <button type="button"  class="btn" value="3" onclick="dis('3')">3</button>
             
-            <input type="button" class="btn" value="0">0</input>
-            <input type="button" class="btn decimal" value=".">.</input>
-            <input type="button" class="btn all-clear" value="all-clear">AC</input>
-            <input type="button" class="btn equal-sign" value="=">=</input>
+            <button type="button"  class="btn" value="0" onclick="dis('0')">0</button>
+            <button type="button"  class="btn decimal" value="." onclick="dis('.')">.</button>
+            <button type="button"  class="btn all-clear" value="all-clear" onclick="allClear()">AC</button>
+            <button type="button" class="btn equal-sign" value="=">=</button>
         </div>
     </div>
 </body>
